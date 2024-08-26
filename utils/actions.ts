@@ -276,7 +276,7 @@ export const fetchProductReviews = async (productId: string) => {
       productId,
     },
     orderBy: {
-      createAt: "desc",
+      createdAt: "desc",
     },
   });
   return reviews;
